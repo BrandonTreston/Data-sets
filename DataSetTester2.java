@@ -4,7 +4,7 @@ public class DataSetTester2{
 		Measurer m = new PersonMeasurer();
 		DataSet data = new DataSet(m);
 
-		data.add(new Person("Jake", 175));
+		data.add(new Person("Jake", 175));  // ("name", height (cm))
 		data.add(new Person("Amari", 165));
 		data.add(new Person("Brandon", 180));
 		data.add(new Person("Kelly", 150));
