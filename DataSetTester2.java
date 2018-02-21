@@ -12,8 +12,8 @@ public class DataSetTester2{
 		Person max = (Person) data.getMaximum();
 		Person min = (Person) data.getMinimum();
 		double avg = data.getAverage();
-		System.out.println("The tallest person in " + max.getName() + ", with: " + max.getHeight());
-		System.out.println("The shortest person is " + min.getName() +", with: " + min.getHeight());
+		System.out.println("The tallest person in " + max.getName() + ", with: " + max.getHeight() + "cm");
+		System.out.println("The shortest person is " + min.getName() +", with: " + min.getHeight() + "cm");
 		System.out.println("The average height is: " +  avg);
 		
 		
